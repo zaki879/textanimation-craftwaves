@@ -77,7 +77,9 @@
 	 -webkit-animation-delay: 12s;
 	 -moz-animation-delay: 12s;
 	 animation-delay: 12s;
+     opacity: 1;
 }
+
 
  @-webkit-keyframes OpeningSequence {
 	 0% {
@@ -154,11 +156,11 @@
 		 pointer-events: none;
 	}
 }
- .os-phrases h2:nth-child(8) > span > span > span {
-	 font-size: 30px;
-	 -webkit-animation: FadeIn 4s linear 40s forwards;
-	 -moz-animation: FadeIn 4s linear 40s forwards;
-	 animation: FadeIn 4s linear 40s forwards;
+ .os-phrases h2:nth-child(4) > span > span > span {
+	 font-size: 5rem;
+	 -webkit-animation: FadeIn 4s linear 8s forwards;
+	 -moz-animation: FadeIn 4s linear 8s forwards;
+	 animation: FadeIn 4s linear 8s forwards;
 }
  @-webkit-keyframes FadeIn {
 	 0% {
