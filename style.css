@@ -59,26 +59,21 @@
 	 -webkit-transform: translate3d(0, 0, 0);
 	 -moz-transform: translate3d(0, 0, 0);
 	 transform: translate3d(0, 0, 0);
-	 -webkit-animation: OpeningSequence 3s linear forwards;
-	 -moz-animation: OpeningSequence 3s linear forwards;
-	 animation: OpeningSequence 3s linear forwards;
+	 -webkit-animation: OpeningSequence 2s linear forwards;
+	 -moz-animation: OpeningSequence 2s linear forwards;
+	 animation: OpeningSequence 2s linear forwards;
 }
  .os-phrases h2:nth-child(2) > span > span > span {
+	 -webkit-animation-delay: 2s;
+	 -moz-animation-delay: 2s;
+	 animation-delay: 2s;
+}
+ .os-phrases h2:nth-child(3) > span > span > span {
 	 -webkit-animation-delay: 4s;
 	 -moz-animation-delay: 4s;
 	 animation-delay: 4s;
 }
- .os-phrases h2:nth-child(3) > span > span > span {
-	 -webkit-animation-delay: 8s;
-	 -moz-animation-delay: 8s;
-	 animation-delay: 8s;
-}
- .os-phrases h2:nth-child(4) > span > span > span {
-	 -webkit-animation-delay: 12s;
-	 -moz-animation-delay: 12s;
-	 animation-delay: 12s;
-     opacity: 1;
-}
+
 
 
  @-webkit-keyframes OpeningSequence {
@@ -158,9 +153,9 @@
 }
  .os-phrases h2:nth-child(4) > span > span > span {
 	 font-size: 5rem;
-	 -webkit-animation: FadeIn 4s linear 8s forwards;
-	 -moz-animation: FadeIn 4s linear 8s forwards;
-	 animation: FadeIn 4s linear 8s forwards;
+	 -webkit-animation: FadeIn 4s linear 6s forwards;
+	 -moz-animation: FadeIn 4s linear 6s forwards;
+	 animation: FadeIn 4s linear 6s forwards;
 }
  @-webkit-keyframes FadeIn {
 	 0% {
