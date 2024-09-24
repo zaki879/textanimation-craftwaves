@@ -39,7 +39,7 @@
 	 align-items: center;
 }
  .os-phrases h2 > span {
-	 margin: 0 15px;
+	 margin: 0 15px 0px 0px;
 }
  .os-phrases h2 > span > span {
 	 display: inline-block;
