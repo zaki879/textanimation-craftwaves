@@ -13,7 +13,7 @@
 	 top: 0;
 	 left: 0;
 	 letter-spacing: 14px;
-	 text-align: center;
+	 text-align: start;
 	 opacity: 0;
 }
  .os-phrases h2, .os-phrases h2 > span {
@@ -31,7 +31,7 @@
 	 -moz-box-pack: center;
 	 -webkit-justify-content: center;
 	 -ms-flex-pack: center;
-	 justify-content: center;
+	 justify-content: start;
 	 -webkit-box-align: center;
 	 -moz-box-align: center;
 	 -webkit-align-items: center;
@@ -153,9 +153,9 @@
 }
  .os-phrases h2:nth-child(4) > span > span > span {
 	 font-size: 5rem;
-	 -webkit-animation: FadeIn 4s linear 6s forwards;
-	 -moz-animation: FadeIn 4s linear 6s forwards;
-	 animation: FadeIn 4s linear 6s forwards;
+	 -webkit-animation: FadeIn 1.5s linear 6s forwards;
+	 -moz-animation: FadeIn 1.5s linear 6s forwards;
+	 animation: FadeIn 1.5s linear 6s forwards;
 }
  @-webkit-keyframes FadeIn {
 	 0% {
