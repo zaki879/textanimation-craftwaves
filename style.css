@@ -3,13 +3,15 @@
 *{
 	margin: 0;
 }
+
 .animation-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
+	align-self: center;
     align-items: start;
     position: relative;
-	height:15vh ;
+	height:100% ;
 }
 
 .ml12 {
@@ -21,6 +23,7 @@
     color: #3f345f;
     text-align: center; /* Centering text inside the container */
     position: absolute; /* Change from absolute to relative */
+	
 }
 
 /* Media query to center the text for screens 768px or larger */
@@ -31,7 +34,6 @@
         flex-direction: column;
         justify-content: center;
 		position: relative;
-		height:15vh ;
         align-items: center;
         text-align: center;
 		align-self: center;
