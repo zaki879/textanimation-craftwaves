@@ -3,7 +3,6 @@
 
 
 .ml12 {
-	font-weight: 200;
 	font-size: 3em;
 	text-transform: uppercase;
 	letter-spacing: 0.3rem;
@@ -11,6 +10,10 @@
 	font-family: "Quicksand", system-ui;
 	font-weight: 400;
 	color: #3f345f;
+	align-self: center;
+	align-items: center;
+	justify-content: center;
+	
 	
   }
   
