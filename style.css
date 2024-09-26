@@ -19,7 +19,7 @@
 }
 
 /* Media query for screens 768px wide or smaller */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 568px) {
     .ml12 {
         font-size: 2em;
         text-transform: uppercase;
