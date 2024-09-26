@@ -17,7 +17,7 @@
 /* Media query to center the text for screens 768px or larger */
 @media screen and (max-width: 768px) {
 	.ml12 {
-		font-size: 3em;
+		font-size: 2em;
 		text-transform: uppercase;
 		letter-spacing: 0.3rem;
 		font-family: "Quicksand", system-ui;
