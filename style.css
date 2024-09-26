@@ -28,7 +28,7 @@
         font-weight: 400;
         color: #3f345f;
         text-align: center; /* Centering text for small screens */
-        position: relative; /* Adjust positioning for small screens */
+        position: absolute; /* Adjust positioning for small screens */
         justify-content: center;
         align-items: center;
         align-self: center;
