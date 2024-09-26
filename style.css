@@ -1,17 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+*{
+	margin: 0;
 }
-
 .animation-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     align-items: start;
     position: relative;
+	height:15vh ;
 }
 
 .ml12 {
@@ -28,10 +26,14 @@ body, html {
 /* Media query to center the text for screens 768px or larger */
 @media screen and (max-width: 768px) {
     .animation-wrapper {
+		height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
+		position: relative;
+		height:15vh ;
         align-items: center;
         text-align: center;
+		align-self: center;
     }
 }
