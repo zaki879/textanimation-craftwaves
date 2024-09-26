@@ -8,8 +8,14 @@
     font-family: "Quicksand", system-ui;
     font-weight: 400;
     color: #3f345f;
-    text-align: center; /* Centering text inside the container */
+    text-align: start; /* Centering text inside the container */
     position: absolute; /* Change from absolute to relative */
+	justify-content: start;
+	align-items: start;
+	align-self: self-start;
+	justify-items: self-start;
+	justify-self: start;
+	width: 100%;
 	left: 0%;
 	
 }
