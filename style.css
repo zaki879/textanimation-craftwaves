@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-
 .ml12 {
     font-size: 3em;
     text-transform: uppercase;
@@ -8,36 +7,33 @@
     font-family: "Quicksand", system-ui;
     font-weight: 400;
     color: #3f345f;
-    text-align: start; /* Centering text inside the container */
-    position: absolute; /* Change from absolute to relative */
-	justify-content: start;
-	align-items: start;
-	align-self: self-start;
-	justify-items: self-start;
-	justify-self: start;
-	width: 100%;
-	left: 0%;
-	
+    text-align: start; /* Alignment for screens wider than 768px */
+    position: absolute;
+    justify-content: start;
+    align-items: start;
+    align-self: self-start;
+    justify-items: self-start;
+    justify-self: start;
+    width: 100%;
+    left: 0;
 }
 
-/* Media query to center the text for screens 768px or larger */
-@media screen and (min-width: 768px) {
-	.ml12 {
-		font-size: 2em;
-		text-transform: uppercase;
-		letter-spacing: 0.3rem;
-		font-family: "Quicksand", system-ui;
-		font-weight: 400;
-		color: #3f345f;
-		text-align: center; /* Centering text inside the container */
-		position: absolute; /* Change from absolute to relative */
-		justify-content: center;
-		align-items: center;
-		align-self: center;
-		justify-items: center;
-		justify-self: center;
-		width: 100%;
-
-		
-	}
+/* Media query for screens 768px wide or smaller */
+@media screen and (max-width: 768px) {
+    .ml12 {
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 0.3rem;
+        font-family: "Quicksand", system-ui;
+        font-weight: 400;
+        color: #3f345f;
+        text-align: center; /* Centering text for small screens */
+        position: relative; /* Adjust positioning for small screens */
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        justify-items: center;
+        justify-self: center;
+        width: 100%;
+    }
 }
