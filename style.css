@@ -25,7 +25,13 @@
 		color: #3f345f;
 		text-align: center; /* Centering text inside the container */
 		position: absolute; /* Change from absolute to relative */
-		left: 40%;
+		justify-content: center;
+		align-items: center;
+		align-self: center;
+		justify-items: center;
+		justify-self: center;
+		width: 100%;
+
 		
 	}
 }
