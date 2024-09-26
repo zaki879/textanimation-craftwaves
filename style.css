@@ -10,10 +10,22 @@
     color: #3f345f;
     text-align: center; /* Centering text inside the container */
     position: absolute; /* Change from absolute to relative */
+	left: 0%;
 	
 }
 
 /* Media query to center the text for screens 768px or larger */
 @media screen and (max-width: 768px) {
-
+	.ml12 {
+		font-size: 3em;
+		text-transform: uppercase;
+		letter-spacing: 0.3rem;
+		font-family: "Quicksand", system-ui;
+		font-weight: 400;
+		color: #3f345f;
+		text-align: center; /* Centering text inside the container */
+		position: absolute; /* Change from absolute to relative */
+		left: 40%;
+		
+	}
 }
