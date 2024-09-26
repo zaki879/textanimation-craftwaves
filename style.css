@@ -1,23 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 
+.animation-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    position: relative;
+}
 
 .ml12 {
-	font-size: 3em;
-	text-transform: uppercase;
-	letter-spacing: 0.3rem;
-	position: absolute;
-	font-family: "Quicksand", system-ui;
-	font-weight: 400;
-	color: #3f345f;
-	align-self: center;
-	align-items: center;
-	justify-content: center;
-	
-	
-  }
-  
-  .ml12 .letter {
-	display: inline-block;
-	line-height: 0rem;
-  }
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-family: "Quicksand", system-ui;
+    font-weight: 400;
+    color: #3f345f;
+    text-align: center; /* Centering text inside the container */
+    position: absolute; /* Change from absolute to relative */
+}
+
+/* Media query to center the text for screens 768px or larger */
+@media screen and (max-width: 768px) {
+    .animation-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
