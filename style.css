@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-*{
-	margin-top: 3vh;
-}
-
-.animation-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-	align-self: center;
-    align-items: start;
-    position: relative;
-	height:100% ;
-}
 
 .ml12 {
     font-size: 3em;
@@ -28,14 +15,5 @@
 
 /* Media query to center the text for screens 768px or larger */
 @media screen and (max-width: 768px) {
-    .animation-wrapper {
-		height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-		position: relative;
-        align-items: center;
-        text-align: center;
-		align-self: center;
-    }
+
 }
